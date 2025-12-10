@@ -1,16 +1,16 @@
 # 신현중 | 프론트엔드개발자
 
----
-
 프론트엔드로 참여한 팀 프로젝트에서 두 차례 우수상을 수상했습니다. MES 제작에 프론트엔드 담당 중 입니다.
 
 **Github**: Shin-3117
 
 **Email** : qsc3117@naver.com
 
-## Project
 
 ---
+
+## Project
+
 
 ### **COA(6주/6명) FE**
 
@@ -79,9 +79,11 @@ JavaScript, React, WebSocket, WebRTC
 
 TypeScript, vue.js
 
+---
+
 ## Award
 
----
+
 
 ### 삼성 청년 SW아카데미 자율프로젝트
 
@@ -95,9 +97,11 @@ TypeScript, vue.js
 
 24.03.03 / 우수상 / 삼성 청년 SW아카데미
 
+---
+
 ## Skills
 
----
+
 
 ### **Strong**
 
@@ -111,9 +115,11 @@ WebSocket / WebRTC / Vue.js / Python / Django / Flutter
 
 Git
 
+---
+
 ## Community
 
----
+
 
 ### **삼성 청년 SW아카데이  / 23.07 ~24.06**
 
@@ -123,9 +129,11 @@ Python, Vue.js, Django 등을 학습하고 팀 프로젝트를 3회 진행
 
 JavaScript, React, Recoil 등을 학습하고 팀 프로젝트를 1회 진행
 
+---
+
 ## Career
 
----
+
 
 ### **WIMR / FE**
 
@@ -139,9 +147,11 @@ JavaScript, TypeScript, React, Next, React-Query, Zustand
 
 - MES에서의 프론트엔드 개발
 
+---
+
 ## Education
 
----
+
 
 ### 부산대 광메카트로닉스공학과
 
