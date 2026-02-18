@@ -11,7 +11,7 @@ export default function CoA() {
         >
           링크
         </a>
-        <span className="text-xs text-black/60 dark:text-white/60">24.04 ~ 24.05</span>
+        <span className="text-xs text-black/60 dark:text-white/60">2024.04 ~ 2024.05</span>
       </div>
     </div>
     <p className="mt-1 text-sm text-black/70 dark:text-white/70">

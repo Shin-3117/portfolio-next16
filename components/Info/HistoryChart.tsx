@@ -21,9 +21,9 @@ export default function HistoryChart() {
     Repository[]
   >([
     {
-      name: "WIMIR (재직중)",
+      name: "WIMIR",
       start: "2024.08.22",
-      end: today,
+      end: "2026.02.27",
     },
     {
       name: "삼성 청년 SW아카데미",

@@ -11,7 +11,7 @@ export default function W_E() {
         >
           링크
         </a>
-        <span className="text-xs text-black/60 dark:text-white/60">24.02 ~ 24.04</span>
+        <span className="text-xs text-black/60 dark:text-white/60">2024.02 ~ 2024.04</span>
       </div>
     </div>
     <p className="mt-1 text-sm text-black/70 dark:text-white/70">10대 청소년을 위한 금융 관리 앱</p>

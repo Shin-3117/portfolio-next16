@@ -11,7 +11,7 @@ export default function SimpleSupportInvest() {
         >
           링크
         </a>
-        <span className="text-xs text-black/60 dark:text-white/60">23.11 ~ 23.11</span>
+        <span className="text-xs text-black/60 dark:text-white/60">2023.11 ~ 2023.11</span>
       </div>
     </div>
     <p className="mt-1 text-sm text-black/70 dark:text-white/70">투자를 위한 종합 정보 제공 사이트</p>

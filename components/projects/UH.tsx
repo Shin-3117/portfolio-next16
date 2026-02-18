@@ -11,7 +11,7 @@ export default function UH() {
         >
           링크
         </a>
-        <span className="text-xs text-black/60 dark:text-white/60">24.01 ~ 24.02</span>
+        <span className="text-xs text-black/60 dark:text-white/60">2024.01 ~ 2024.02</span>
       </div>
     </div>
     <p className="mt-1 text-sm text-black/70 dark:text-white/70">WebSocket 활용 게임 사이트</p>

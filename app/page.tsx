@@ -35,9 +35,16 @@ export default function Home() {
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
             신현중 | 프론트엔드개발자
           </h1>
-          <p className="mt-3 text-base text-black/70 dark:text-white/70">
-            프론트엔드로 참여한 팀 프로젝트에서 두 차례 우수상을 수상했습니다. MES 제작에 프론트엔드 담당 중 입니다.
-          </p>
+          <div className="mt-3 text-base text-black/70 dark:text-white/70">
+            <p>모바일·태블릿·PC·TV 등 다양한 환경에 대응하는 화면을 개발합니다.
+            </p>
+            <p>
+              next-intl 기반 다국어 지원과 TanStack Table·D3.js를 활용한 데이터 시각화 경험이 있습니다.
+            </p>
+            <p>
+              팀 프로젝트로 2회 우수상을 수상했습니다.
+            </p>
+          </div>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <a
               className="rounded-full border border-black/10 px-3 py-1 hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/5"
@@ -95,7 +102,7 @@ export default function Home() {
                   >
                     링크
                   </a>
-                  <span className="text-xs text-black/60 dark:text-white/60">24.05.24</span>
+                  <span className="text-xs text-black/60 dark:text-white/60">2024.05.24</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
@@ -114,7 +121,7 @@ export default function Home() {
                   >
                     링크
                   </a>
-                  <span className="text-xs text-black/60 dark:text-white/60">24.03.03</span>
+                  <span className="text-xs text-black/60 dark:text-white/60">2024.03.03</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
@@ -132,7 +139,7 @@ export default function Home() {
           <div className="mt-6 rounded-lg border border-black/10 p-4 text-sm dark:border-white/15">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <p className="font-medium">WIMR / FE</p>
-              <span className="text-xs text-black/60 dark:text-white/60">24.08 ~ 재직중</span>
+              <span className="text-xs text-black/60 dark:text-white/60">2024.08 ~ 2026.02</span>
             </div>
             <p className="mt-2 text-black/70 dark:text-white/70">
               <span className="font-medium">기술</span>: JavaScript, TypeScript, React, Next, React-Query, Zustand
@@ -150,7 +157,7 @@ export default function Home() {
             <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="font-medium">삼성 청년 SW아카데이</p>
-                <span className="text-xs text-black/60 dark:text-white/60">23.07 ~ 24.06</span>
+                <span className="text-xs text-black/60 dark:text-white/60">2023.07 ~ 2024.06</span>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
                 Python, Vue.js, Django 등을 학습하고 팀 프로젝트를 3회 진행
@@ -159,7 +166,7 @@ export default function Home() {
             <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="font-medium">코드스테이츠 경상남도 ABC-Lab 웹프론트엔드 개발자 부트캠프</p>
-                <span className="text-xs text-black/60 dark:text-white/60">23.01 ~ 24.04</span>
+                <span className="text-xs text-black/60 dark:text-white/60">2023.01 ~ 2024.04</span>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
                 JavaScript, React, Recoil 등을 학습하고 팀 프로젝트를 1회 진행
