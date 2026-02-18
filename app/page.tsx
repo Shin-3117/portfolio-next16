@@ -8,6 +8,8 @@ import UH from "@/components/projects/UH";
 import SimpleSupportInvest from "@/components/projects/SimpleSupportInvest";
 import Link from "next/link";
 
+import GitContribute from "@/components/GitContribute";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -54,13 +56,15 @@ export default function Home() {
           </div>
         </section>
 
+        <GitContribute />
+
         {/* Skills */}
         <section id="skills" className="scroll-mt-20">
           <h2 className="text-2xl font-semibold">Skills</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <StrongSkills/>
-            <KnowledgeableSkills/>
-            <EtcSkills/>
+            <StrongSkills />
+            <KnowledgeableSkills />
+            <EtcSkills />
           </div>
         </section>
 
@@ -68,10 +72,10 @@ export default function Home() {
         <section id="projects" className="scroll-mt-20">
           <h2 className="text-2xl font-semibold">Project</h2>
           <div className="mt-6 flex flex-col gap-8">
-            <CoA/>
-            <W_E/>
-            <UH/>
-            <SimpleSupportInvest/>
+            <CoA />
+            <W_E />
+            <UH />
+            <SimpleSupportInvest />
           </div>
         </section>
 
@@ -91,7 +95,7 @@ export default function Home() {
                   >
                     링크
                   </a>
-                <span className="text-xs text-black/60 dark:text-white/60">24.05.24</span>
+                  <span className="text-xs text-black/60 dark:text-white/60">24.05.24</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
@@ -110,7 +114,7 @@ export default function Home() {
                   >
                     링크
                   </a>
-                <span className="text-xs text-black/60 dark:text-white/60">24.03.03</span>
+                  <span className="text-xs text-black/60 dark:text-white/60">24.03.03</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
@@ -120,7 +124,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <HistoryChart/>
+        <HistoryChart />
 
         {/* Career */}
         <section id="career" className="scroll-mt-20">
