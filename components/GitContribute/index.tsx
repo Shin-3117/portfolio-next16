@@ -14,7 +14,7 @@ interface ContributionData {
 }
 
 const GITHUB_COLOR = '#39d353'; // GitHub Green
-const GITLAB_COLOR = '#fc6d26'; // GitLab Orange
+const GITLAB_COLOR = '#fc6d26'; // GitLab Orange logo
 const EMPTY_COLOR = '#ebedf0'; // Empty Gray (Light mode)
 
 type Provider = 'all' | 'github' | 'gitlab';
