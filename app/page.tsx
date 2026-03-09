@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </section>
 
-        <GitContribute />
+
 
         {/* Skills */}
         <section id="skills" className="scroll-mt-20">
@@ -187,7 +187,7 @@ export default function Home() {
           </div>
         </section>
 
-
+        {/*<GitContribute />*/}
 
         {/* Footer */}
         <footer className="border-t border-black/10 py-6 text-xs text-black/60 dark:border-white/10 dark:text-white/60 flex gap-2 items-center">
