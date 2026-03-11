@@ -5,7 +5,7 @@ export default function UH() {
       <div className={'flex gap-2 items-center'}>
         <a
           className="underline text-sm"
-          href="https://github.com/CommitAnalyze/CoA"
+          href="https://github.com/Shin-3117/UH"
           target="_blank"
           rel="noopener noreferrer"
         >
