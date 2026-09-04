@@ -2,6 +2,7 @@ import StrongSkills from "@/components/Skills/Strong";
 import KnowledgeableSkills from "@/components/Skills/Knowledgeable";
 import EtcSkills from "@/components/Skills/ETC";
 import HistoryChart from "@/components/Info/HistoryChart";
+import Career from "@/components/Career";
 import CoA from "@/components/projects/CoA";
 import W_E from "@/components/projects/W-E";
 import UH from "@/components/projects/UH";
@@ -20,9 +21,9 @@ export default function Home() {
           </a>
           <nav className="hidden gap-4 text-sm sm:flex">
             <Link className="hover:underline" href="#skills">기술</Link>
-            <Link className="hover:underline" href="#projects">프로젝트</Link>
-            <Link className="hover:underline" href="#awards">수상</Link>
             <Link className="hover:underline" href="#career">경력</Link>
+            <Link className="hover:underline" href="#projects">팀 프로젝트</Link>
+            <Link className="hover:underline" href="#awards">수상</Link>
             <Link className="hover:underline" href="#community">커뮤니티</Link>
             <Link className="hover:underline" href="#education">학력</Link>
           </nav>
@@ -75,9 +76,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Projects */}
+        {/* Career */}
+        <Career />
+
+        {/* Side / Team Projects */}
         <section id="projects" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Project</h2>
+          <h2 className="text-2xl font-semibold">Side / Team Projects</h2>
           <div className="mt-6 flex flex-col gap-8">
             <CoA />
             <W_E />
@@ -132,23 +136,6 @@ export default function Home() {
         </section>
 
         <HistoryChart />
-
-        {/* Career */}
-        <section id="career" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Career</h2>
-          <div className="mt-6 rounded-lg border border-black/10 p-4 text-sm dark:border-white/15">
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <p className="font-medium">WIMR / FE</p>
-              <span className="text-xs text-black/60 dark:text-white/60">2024.08 ~ 2026.02</span>
-            </div>
-            <p className="mt-2 text-black/70 dark:text-white/70">
-              <span className="font-medium">기술</span>: JavaScript, TypeScript, React, Next, React-Query, Zustand
-            </p>
-            <ul className="mt-2 list-disc space-y-1 pl-5">
-              <li>MES에서의 프론트엔드 개발</li>
-            </ul>
-          </div>
-        </section>
 
         {/* Community */}
         <section id="community" className="scroll-mt-20">
