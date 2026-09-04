@@ -3,7 +3,8 @@ import StackTags from "@/components/StackTags";
 
 export default function CoA() {
   return <CollapsibleCard
-    title="COA (6주/6명) · FE"
+    title="CoA (6주/6명) · FE"
+    badge="우수상"
     subtitle="커밋 기반 프로젝트 기여도 분석 사이트"
     period="2024.04 ~ 2024.05"
     href="https://github.com/CommitAnalyze/CoA"

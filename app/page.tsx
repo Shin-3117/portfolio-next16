@@ -97,7 +97,7 @@ export default function Home() {
           <ul className="mt-6 space-y-5 text-sm">
             <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex items-center justify-between">
-                <p className="font-medium">삼성 청년 SW아카데미 자율프로젝트</p>
+                <p className="font-medium">삼성 청년 SW아카데미 자율프로젝트 · CoA</p>
                 <div className={'flex gap-2 items-center'}>
                   <RepoLink href="https://github.com/CommitAnalyze/CoA" label="CoA" />
                   <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.05.24</span>
@@ -109,7 +109,7 @@ export default function Home() {
             </li>
             <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex items-center justify-between">
-                <p className="font-medium">삼성 청년 SW아카데미 공통프로젝트</p>
+                <p className="font-medium">삼성 청년 SW아카데미 공통프로젝트 · UH</p>
                 <div className={'flex gap-2 items-center'}>
                   <RepoLink href="https://github.com/Shin-3117/UH" label="UH" />
                   <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.03.03</span>

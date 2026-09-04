@@ -9,6 +9,7 @@ import RepoLink from "@/components/RepoLink";
 export default function CollapsibleCard({
   title,
   titleLevel = 3,
+  badge,
   subtitle,
   period,
   href,
@@ -17,6 +18,8 @@ export default function CollapsibleCard({
 }: {
   title: string;
   titleLevel?: 3 | 4;
+  /** 제목 옆 강조 배지. 기술 칩보다 테두리를 진하게 해서 위계를 구분한다. */
+  badge?: string;
   subtitle?: string;
   period?: string;
   href?: string;
@@ -31,9 +34,16 @@ export default function CollapsibleCard({
   >
     <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-2 p-4 hover:bg-black/[0.03] dark:hover:bg-white/[0.04] [&::-webkit-details-marker]:hidden">
       <div>
-        <Title className={titleLevel === 3 ? "text-lg font-semibold" : "text-base font-semibold"}>
-          {title}
-        </Title>
+        <div className="flex flex-wrap items-center gap-2">
+          <Title className={titleLevel === 3 ? "text-lg font-semibold" : "text-base font-semibold"}>
+            {title}
+          </Title>
+          {badge && (
+            <span className="rounded-full border border-black/40 px-2 py-0.5 text-xs font-medium dark:border-white/50">
+              {badge}
+            </span>
+          )}
+        </div>
         {subtitle && (
           <p className="mt-0.5 text-sm text-black/70 dark:text-white/70">{subtitle}</p>
         )}

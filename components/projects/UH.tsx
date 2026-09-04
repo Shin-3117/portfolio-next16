@@ -4,6 +4,7 @@ import StackTags from "@/components/StackTags";
 export default function UH() {
   return <CollapsibleCard
     title="UH (6주/6명) · FE"
+    badge="우수상"
     subtitle="WebSocket 활용 게임 사이트"
     period="2024.01 ~ 2024.02"
     href="https://github.com/Shin-3117/UH"
