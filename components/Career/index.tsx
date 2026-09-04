@@ -1,13 +1,16 @@
 import { careerProjects } from "@/data/careerProjects";
 import CareerProjectCard from "@/components/Career/CareerProjectCard";
+import StackTags from "@/components/StackTags";
 
 export default function Career() {
   return <section id="career" className="scroll-mt-20">
-    <h2 className="text-2xl font-semibold">Career</h2>
+    <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">
+      Career
+    </h2>
     <div className="mt-6 rounded-lg border border-black/10 p-5 text-sm dark:border-white/15">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="font-medium">위미르(주) · 기업부설연구소 주임연구원 / FE</p>
-        <span className="text-xs text-black/60 dark:text-white/60">
+        <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">
           2024.08 ~ 2026.02 (1년 7개월)
         </span>
       </div>
@@ -29,15 +32,24 @@ export default function Career() {
           구현 및 기획-개발-운영 전 과정 소통으로 데이터 정합성 확보
         </li>
       </ul>
-      <p className="mt-3 text-black/70 dark:text-white/70">
-        <span className="font-medium">기술</span>: JavaScript, TypeScript, React, Next,
-        TanStack Query, TanStack Table, Zustand, D3.js, Recharts
-      </p>
+      <StackTags
+        items={[
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next",
+          "TanStack Query",
+          "TanStack Table",
+          "Zustand",
+          "D3.js",
+          "Recharts",
+        ]}
+      />
 
       <div className="mt-5 border-t border-black/10 pt-4 dark:border-white/15">
         <h3 className="text-sm font-medium">
           주요 프로젝트
-          <span className="ml-2 text-xs font-normal text-black/50 dark:text-white/50">
+          <span className="ml-2 text-xs font-normal text-black/60 dark:text-white/60">
             {careerProjects.length}건 · 클릭하면 상세가 펼쳐집니다
           </span>
         </h3>

@@ -27,3 +27,24 @@ body {
     Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial,
     "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+/* 한글 본문 가독성: Tailwind 기본 line-height(text-sm = 1.43)는 라틴 기준이라
+   한글에는 좁다. 제목은 각자의 text-* 값을 그대로 쓰도록 본문 요소만 지정. */
+p,
+li {
+  line-height: 1.7;
+}
+
+@media print {
+  /* sticky 헤더가 인쇄 시 첫 페이지를 가리지 않도록 */
+  header {
+    position: static !important;
+  }
+
+  /* 종이에서는 링크를 누를 수 없으므로 URL을 노출 */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+}

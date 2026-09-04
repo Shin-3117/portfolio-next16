@@ -39,7 +39,7 @@ export const careerProjects: CareerProject[] = [
     ],
     result:
       "100페이지 이상의 대규모 모듈 확장에도 대응 가능한 프론트엔드 구조 정착 및 운영 기반 마련",
-    stack: ["TypeScript", "React", "Next", "TanStack Query", "Zustand"],
+    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table", "Zustand", "Recharts"],
   },
   {
     id: "mes-enhancement",
@@ -70,7 +70,7 @@ export const careerProjects: CareerProject[] = [
     ],
     result:
       "복잡한 예외 시나리오를 안정적으로 시스템에 흡수해 현장 편의성과 데이터 신뢰성을 확보한 업무 흐름 구축",
-    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table"],
+    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table", "Zustand"],
   },
   {
     id: "mes-admin",
@@ -96,7 +96,7 @@ export const careerProjects: CareerProject[] = [
     ],
     result:
       "관리자 화면 전반에 공통 컴포넌트와 표준 데이터 패턴을 정착시켜 신규 도메인 확장 시 개발 리소스 절감",
-    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table", "Zustand"],
+    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table", "Zustand", "Recharts", "D3.js"],
   },
   {
     id: "mes-engine",
@@ -121,6 +121,6 @@ export const careerProjects: CareerProject[] = [
       },
     ],
     result: "현장의 수기·단말 입력을 관리자 모니터링 체계와 일원화해 지연 없는 공정 추적 환경 구축",
-    stack: ["JavaScript", "TypeScript", "React", "Next", "Zustand"],
+    stack: ["TypeScript", "React", "Next", "TanStack Query", "TanStack Table", "Zustand"],
   },
 ];

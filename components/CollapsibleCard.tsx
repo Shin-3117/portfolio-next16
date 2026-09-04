@@ -49,7 +49,9 @@ export default function CollapsibleCard({
           </a>
         )}
         {period && (
-          <span className="text-xs text-black/60 dark:text-white/60">{period}</span>
+          <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">
+            {period}
+          </span>
         )}
         <svg
           aria-hidden="true"

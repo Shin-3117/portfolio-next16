@@ -1,4 +1,5 @@
 import CollapsibleCard from "@/components/CollapsibleCard";
+import StackTags from "@/components/StackTags";
 
 export default function UH() {
   return <CollapsibleCard
@@ -15,8 +16,6 @@ export default function UH() {
         <li>게임 기능 구현</li>
       </ul>
     </div>
-    <p className="mt-3 text-sm text-black/70 dark:text-white/70">
-      <span className="font-medium">기술</span>: JavaScript, React, WebSocket, WebRTC
-    </p>
+    <StackTags items={["JavaScript", "React", "WebSocket", "WebRTC"]} />
   </CollapsibleCard>
 }

@@ -1,5 +1,6 @@
 import type { CareerProject } from "@/data/careerProjects";
 import CollapsibleCard from "@/components/CollapsibleCard";
+import StackTags from "@/components/StackTags";
 
 export default function CareerProjectCard({
   project,
@@ -30,8 +31,6 @@ export default function CareerProjectCard({
       <h5 className="text-sm font-medium">성과</h5>
       <p className="mt-1 text-sm text-black/70 dark:text-white/70">{project.result}</p>
     </div>
-    <p className="mt-3 text-sm text-black/70 dark:text-white/70">
-      <span className="font-medium">기술</span>: {project.stack.join(", ")}
-    </p>
+    <StackTags items={project.stack} />
   </CollapsibleCard>
 }

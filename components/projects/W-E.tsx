@@ -1,4 +1,5 @@
 import CollapsibleCard from "@/components/CollapsibleCard";
+import StackTags from "@/components/StackTags";
 
 export default function W_E() {
   return <CollapsibleCard
@@ -15,8 +16,6 @@ export default function W_E() {
         <li>가계부 및 지출 내역 통계 제작</li>
       </ul>
     </div>
-    <p className="mt-3 text-sm text-black/70 dark:text-white/70">
-      <span className="font-medium">기술</span>: Flutter
-    </p>
+    <StackTags items={["Flutter"]} />
   </CollapsibleCard>
 }

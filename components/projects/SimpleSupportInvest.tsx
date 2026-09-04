@@ -1,4 +1,5 @@
 import CollapsibleCard from "@/components/CollapsibleCard";
+import StackTags from "@/components/StackTags";
 
 export default function SimpleSupportInvest() {
   return <CollapsibleCard
@@ -16,8 +17,6 @@ export default function SimpleSupportInvest() {
         <li>은행 위치 지도 컴포넌트 제작 : 맵 마커 및 장소 정보 표시</li>
       </ul>
     </div>
-    <p className="mt-3 text-sm text-black/70 dark:text-white/70">
-      <span className="font-medium">기술</span>: TypeScript, vue.js
-    </p>
+    <StackTags items={["TypeScript", "vue.js"]} />
   </CollapsibleCard>
 }

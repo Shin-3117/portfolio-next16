@@ -1,4 +1,5 @@
 import CollapsibleCard from "@/components/CollapsibleCard";
+import StackTags from "@/components/StackTags";
 
 export default function CoA() {
   return <CollapsibleCard
@@ -17,8 +18,6 @@ export default function CoA() {
         <li>분석결과 점수 Radar 차트 컴포넌트 제작</li>
       </ul>
     </div>
-    <p className="mt-3 text-sm text-black/70 dark:text-white/70">
-      <span className="font-medium">기술</span>: TypeScript, Next, D3.js, Zustand
-    </p>
+    <StackTags items={["TypeScript", "Next", "D3.js", "Zustand"]} />
   </CollapsibleCard>
 }

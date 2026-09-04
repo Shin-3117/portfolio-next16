@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-10 border-b border-black/10 bg-background/80 backdrop-blur dark:border-white/10">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
           <a href="#top" className="text-sm font-semibold tracking-tight">
             신현중
           </a>
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main id="top" className="mx-auto max-w-4xl px-6 py-12 sm:py-16 flex flex-col gap-y-6 sm:gap-y-8">
+      <main id="top" className="mx-auto max-w-3xl px-6 py-12 sm:py-16 flex flex-col gap-y-6 sm:gap-y-8">
         {/* Info */}
         <section>
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -68,7 +68,7 @@ export default function Home() {
 
         {/* Skills */}
         <section id="skills" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Skills</h2>
+          <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">Skills</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <StrongSkills />
             <KnowledgeableSkills />
@@ -81,7 +81,7 @@ export default function Home() {
 
         {/* Side / Team Projects */}
         <section id="projects" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Side / Team Projects</h2>
+          <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">Side / Team Projects</h2>
           <div className="mt-6 flex flex-col gap-3">
             <CoA />
             <W_E />
@@ -92,9 +92,9 @@ export default function Home() {
 
         {/* Awards */}
         <section id="awards" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Award</h2>
-          <ul className="mt-6 space-y-4 text-sm">
-            <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
+          <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">Award</h2>
+          <ul className="mt-6 space-y-5 text-sm">
+            <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex items-center justify-between">
                 <p className="font-medium">삼성 청년 SW아카데미 자율프로젝트</p>
                 <div className={'flex gap-2 items-center'}>
@@ -106,14 +106,14 @@ export default function Home() {
                   >
                     링크
                   </a>
-                  <span className="text-xs text-black/60 dark:text-white/60">2024.05.24</span>
+                  <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.05.24</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
                 우수상 · 삼성 청년 SW아카데미
               </p>
             </li>
-            <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
+            <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex items-center justify-between">
                 <p className="font-medium">삼성 청년 SW아카데미 공통프로젝트</p>
                 <div className={'flex gap-2 items-center'}>
@@ -125,7 +125,7 @@ export default function Home() {
                   >
                     링크
                   </a>
-                  <span className="text-xs text-black/60 dark:text-white/60">2024.03.03</span>
+                  <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.03.03</span>
                 </div>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
@@ -139,21 +139,21 @@ export default function Home() {
 
         {/* Community */}
         <section id="community" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Community</h2>
-          <ul className="mt-6 space-y-4 text-sm">
-            <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
+          <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">Community</h2>
+          <ul className="mt-6 space-y-5 text-sm">
+            <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="font-medium">삼성 청년 SW아카데이</p>
-                <span className="text-xs text-black/60 dark:text-white/60">2023.07 ~ 2024.06</span>
+                <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2023.07 ~ 2024.06</span>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
                 Python, Vue.js, Django 등을 학습하고 팀 프로젝트를 3회 진행
               </p>
             </li>
-            <li className="rounded-lg border border-black/10 p-4 dark:border-white/15">
+            <li className="border-l-2 border-black/15 pl-4 dark:border-white/25">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="font-medium">코드스테이츠 경상남도 ABC-Lab 웹프론트엔드 개발자 부트캠프</p>
-                <span className="text-xs text-black/60 dark:text-white/60">2023.01 ~ 2024.04</span>
+                <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2023.01 ~ 2024.04</span>
               </div>
               <p className="mt-1 text-black/70 dark:text-white/70">
                 JavaScript, React, Recoil 등을 학습하고 팀 프로젝트를 1회 진행
@@ -164,11 +164,11 @@ export default function Home() {
 
         {/* Education */}
         <section id="education" className="scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Education</h2>
-          <div className="mt-6 rounded-lg border border-black/10 p-4 text-sm dark:border-white/15">
+          <h2 className="border-b border-black/10 pb-2 text-2xl font-semibold dark:border-white/15">Education</h2>
+          <div className="mt-6 border-l-2 border-black/15 pl-4 text-sm dark:border-white/25">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <p className="font-medium">부산대 광메카트로닉스공학과</p>
-              <span className="text-xs text-black/60 dark:text-white/60">2016.03 ~ 2022.02</span>
+              <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2016.03 ~ 2022.02</span>
             </div>
             <p className="mt-2 text-black/70 dark:text-white/70">학점: 3.82 / 4.5</p>
           </div>
