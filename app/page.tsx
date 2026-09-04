@@ -7,6 +7,7 @@ import CoA from "@/components/projects/CoA";
 import W_E from "@/components/projects/W-E";
 import UH from "@/components/projects/UH";
 import SimpleSupportInvest from "@/components/projects/SimpleSupportInvest";
+import RepoLink from "@/components/RepoLink";
 import Link from "next/link";
 
 import GitContribute from "@/components/GitContribute";
@@ -98,14 +99,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <p className="font-medium">삼성 청년 SW아카데미 자율프로젝트</p>
                 <div className={'flex gap-2 items-center'}>
-                  <a
-                    href="https://github.com/CommitAnalyze/CoA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-1 underline"
-                  >
-                    링크
-                  </a>
+                  <RepoLink href="https://github.com/CommitAnalyze/CoA" label="CoA" />
                   <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.05.24</span>
                 </div>
               </div>
@@ -117,14 +111,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <p className="font-medium">삼성 청년 SW아카데미 공통프로젝트</p>
                 <div className={'flex gap-2 items-center'}>
-                  <a
-                    href="https://github.com/Shin-3117/UH"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-1 underline"
-                  >
-                    링크
-                  </a>
+                  <RepoLink href="https://github.com/Shin-3117/UH" label="UH" />
                   <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">2024.03.03</span>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import RepoLink from "@/components/RepoLink";
 
 /**
  * 접히는 카드 껍데기. 헤더(제목/부제/링크/기간)는 접힌 상태에서도 보이고,
@@ -38,16 +39,7 @@ export default function CollapsibleCard({
         )}
       </div>
       <div className={'flex gap-2 items-center'}>
-        {href && (
-          <a
-            className="underline text-sm"
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            링크
-          </a>
-        )}
+        {href && <RepoLink href={href} label={title} />}
         {period && (
           <span className="font-mono text-xs tabular-nums text-black/60 dark:text-white/60">
             {period}
