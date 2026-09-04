@@ -1,21 +1,13 @@
+import CollapsibleCard from "@/components/CollapsibleCard";
+
 export default function SimpleSupportInvest() {
-  return <article className="rounded-lg border border-black/10 p-5 dark:border-white/15">
-    <div className="flex flex-wrap items-center justify-between gap-2">
-      <h3 className="text-lg font-semibold">SimpleSupportINVEST (2주/2명) · FE</h3>
-      <div className={'flex gap-2 items-center'}>
-        <a
-          className="underline text-sm"
-          href="https://github.com/Shin-3117/SSAFY_Team_Project"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          링크
-        </a>
-        <span className="text-xs text-black/60 dark:text-white/60">2023.11 ~ 2023.11</span>
-      </div>
-    </div>
-    <p className="mt-1 text-sm text-black/70 dark:text-white/70">투자를 위한 종합 정보 제공 사이트</p>
-    <div className="mt-3">
+  return <CollapsibleCard
+    title="SimpleSupportINVEST (2주/2명) · FE"
+    subtitle="투자를 위한 종합 정보 제공 사이트"
+    period="2023.11 ~ 2023.11"
+    href="https://github.com/Shin-3117/SSAFY_Team_Project"
+  >
+    <div>
       <h4 className="text-sm font-medium">담당</h4>
       <ul className="mt-1 list-disc space-y-1 pl-5 text-sm">
         <li>회원가입, 로그인 기능 구현</li>
@@ -27,5 +19,5 @@ export default function SimpleSupportInvest() {
     <p className="mt-3 text-sm text-black/70 dark:text-white/70">
       <span className="font-medium">기술</span>: TypeScript, vue.js
     </p>
-  </article>
+  </CollapsibleCard>
 }

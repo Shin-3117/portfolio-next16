@@ -82,7 +82,7 @@ export default function Home() {
         {/* Side / Team Projects */}
         <section id="projects" className="scroll-mt-20">
           <h2 className="text-2xl font-semibold">Side / Team Projects</h2>
-          <div className="mt-6 flex flex-col gap-8">
+          <div className="mt-6 flex flex-col gap-3">
             <CoA />
             <W_E />
             <UH />

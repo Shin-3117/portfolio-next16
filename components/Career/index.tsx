@@ -42,12 +42,8 @@ export default function Career() {
           </span>
         </h3>
         <div className="mt-3 flex flex-col gap-3">
-          {careerProjects.map((project, index) => (
-            <CareerProjectCard
-              key={project.id}
-              project={project}
-              // defaultOpen={index === 0}
-            />
+          {careerProjects.map((project) => (
+            <CareerProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>
