@@ -76,7 +76,7 @@ export const careerProjects: CareerProject[] = [
     id: "mes-admin",
     title: "MES 관리자 시스템 구축",
     client: "전선 제조사",
-    period: "2025.02 ~ 2025.12",
+    period: "2025.02 ~ 2026.01",
     summary: "생산·재고·품질 등 제조 전반을 관리하는 대규모 MES 관리자 웹 시스템 구축",
     tasks: [
       {
